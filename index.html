@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="card">
+        <h2 id="card-name">Nombre</h2>
+        <p id="card-phrase">Esta es una frase predeterminada.</p>
+    </div>
+    <button id="edit-button">Editar Frase</button>
+
+    <div class="form-container" id="form-container">
+        <form id="edit-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phrase">Nueva frase:</label>
+            <input type="text" id="phrase" name="phrase" required>
+            <button type="submit">Actualizar</button>
+        </form>
+    </div>
+
+    <script src="./javascript/function.js"></script>
+</body>
+</html>
